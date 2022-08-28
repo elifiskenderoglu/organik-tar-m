@@ -1,0 +1,117 @@
+/* boşluk kodu &nbsp */
+body {
+    background-color: #404040;
+    
+}
+
+/**** BAŞLIKLAR ****/
+
+h1 {
+    
+    text-align: center;
+    color:green;
+    font-size: 64px;
+    font-family: 'Bebas Neue', cursive;
+
+}
+h2 {
+    text-align: left;
+    color:green;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+}
+#font {
+    font-size: 35px;
+}
+
+#font-size {
+    font-size: 35px;
+}
+/* SAYFA LİNKLERİ */
+header{
+    text-align: center;
+    
+
+}
+
+.a {
+    
+    color: #3399ff;
+    font-size: 30px;
+    font-family: 'Londrina Shadow', cursive;
+    
+ }
+ .t {
+    text-align: center;
+ }
+ 
+.e {
+    color:yellowgreen;
+    font-size: 30px;
+    text-align: right;
+    font-family: 'Bebas Neue', cursive;
+    text-align: right;
+}
+
+
+
+
+
+
+/*** LİSTELER ***/
+
+ul {
+    font-family: 'Roboto Mono', monospace;
+    color: #993300;
+    list-style-position: inside;
+}
+ ol {  
+    font-family: 'Roboto Mono', monospace;
+    color: #993300;
+    font-weight: bolder ;
+ }
+    #box {
+        width: 200px;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+    }
+    
+
+ 
+
+/*PARGRAFLAR*/
+p {
+    font-family: 'Roboto Mono', monospace;
+    color: #993300;
+}
+
+/*********** İLETİŞİM*******/
+
+#address {
+    text-align: left;
+    color:yellowgreen;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+     
+}
+
+/********** listeyi ortalama class'ı **********/
+.kapsayici { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+/****** resmin yanına yazmak için ********/
+.yan {
+    display:flex; 
+    align-items: center; 
+    gap: 16px;
+}
+
+
+img 
+{ 
+    width:100px;height:100px;border-radius:50%
+}
